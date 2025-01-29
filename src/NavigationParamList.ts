@@ -1,0 +1,31 @@
+export type MainStackParamList = {
+  Login: undefined;
+  Register: undefined;
+  ForgotPassword: undefined;
+  Dashboard: {
+    role: 'student' | 'teacher' | 'parent';
+  };
+  Profile: undefined;
+  Rankings: undefined;
+  Events: undefined;
+  Chat: undefined;
+  Search: undefined;
+  Fees: undefined;
+  Announcements: undefined;
+  Calendar: undefined;
+  Assignments: undefined;
+  Achievements: undefined;
+  Classes: undefined;
+  RepBadge: undefined;
+  Progress: undefined;
+  PostAssignment: undefined;
+  Attendance: undefined;
+  PTMeeting: undefined;
+  Sports: undefined;
+  Winners: undefined;
+  Tournaments: undefined;
+  JoinSports: undefined;
+  ManageSports: undefined;
+  TeamSelection: undefined;
+  SportsProgress: undefined;
+};
